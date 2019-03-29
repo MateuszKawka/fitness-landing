@@ -1,0 +1,5 @@
+.default-button {
+  margin: $s1 0;
+  @include default-button();
+  cursor: pointer;
+}

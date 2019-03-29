@@ -1,0 +1,14 @@
+@import './reset';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $default-font-family;
+  color: $text-color-dark;
+}
+
+html {
+  font-size: 62.5%;
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fitness</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=latin-ext" rel="stylesheet">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+</head>
+
+<body>
+  <header class="header">
+    <div class="nav-container">
+      <h1 class="nav-container__logo">Fitness</h1>
+      <nav class="nav">
+        <button class="nav-mobile-button"></button>
+        <ul class="menu menu--hidden">
+          <li class="menu-list">
+            <a href="/" class="menu-list__item">home</a>
+          </li>
+          <li class="menu-list">
+            <a href="/" class="menu-list__item">about us</a>
+          </li>
+          <li class="menu-list">
+            <a href="/" class="menu-list__item">training types</a>
+          </li>
+          <li class="menu-list">
+            <a href="/" class="menu-list__item">our team</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main-banner">
+      <h1 class="main-banner__title">make your body<span class="main-banner__title--highlight">beautiful</span></h1>
+      <p class="main-banner__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At amet eaque eveniet nobis
+        ?</p>
+      <button class="default-button">get in touch</button>
+    </div>
+  </header>
+  <main>
+    <section class="section section--welcome">
+      <h2 class="section__title">Welcome to <span class="section__title--highlight">fitness</span></h2>
+      <article class="article">
+        <p class="article__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. A libero possimus officiis
+          dolores cum in provident, odio aperiam itaque vero rerum voluptatem odit nihil blanditiis aliquid culpa
+          eveniet fuga? Mollitia?</p>
+        <button class="default-button">get in touch</button>
+      </article>
+    </section>
+    <section class="section section--training-types">
+      <h2 class="section__title">training types</h2>
+      <div class="slider-container">
+        <div class="my-slider-1">
+          <div class="slide">
+            <figure class="figure-type">
+              <img
+                src="https://images.pexels.com/photos/416809/pexels-photo-416809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                class="figure-type__img" />
+              <figcaption class="figure-type-content">
+                <p class="figure-type-content__title">Basic crossfit</p>
+                <p class="figure-type-content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+                  aliquid labore dolores, sit sequi eveniet natus neque possimus.</p>
+                <button class="default-button">get in touch</button>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="slide">
+            <figure class="figure-type">
+              <img
+                src="https://images.pexels.com/photos/416809/pexels-photo-416809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                class="figure-type__img" />
+              <figcaption class="figure-type-content">
+                <p class="figure-type-content__title">Fitness studio</p>
+                <p class="figure-type-content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+                  aliquid labore dolores, sit sequi eveniet natus neque possimus.</p>
+                <button class="default-button">get in touch</button>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="slide">
+            <figure class="figure-type">
+              <img
+                src="https://images.pexels.com/photos/416809/pexels-photo-416809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                class="figure-type__img" />
+              <figcaption class="figure-type-content">
+                <p class="figure-type-content__title">Yoga classes</p>
+                <p class="figure-type-content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+                  aliquid labore dolores, sit sequi eveniet natus neque possimus.</p>
+                <button class="default-button">get in touch</button>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="banner">
+      <p class="banner__content">We trained with <span class="banner__content--bold">personal trainer</span></p>
+      <button class="default-button">get in touch</button>
+    </div>
+    <section class="section">
+      <h2 class="section__title">expert trainers</h2>
+      <div class="my-slider-2">
+        <figure class="figure-trainer">
+          <img src="/crossfit.jpeg" class="figure-trainer__img" />
+          <figcaption class="figure-trainer-content">
+            <p class="figure-trainer-content__title">Mr. Fantastic</p>
+            <p class="figure-trainer-content__subtitle">spinning trainer</p>
+            <p class="figure-trainer-contentt__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+              temporibus
+              quas molestiae nam.</p>
+          </figcaption>
+        </figure>
+        <figure class="figure-trainer">
+          <img src="/crossfit.jpeg" class="figure-trainer__img" />
+          <figcaption class="figure-trainer-content">
+            <p class="figure-trainer-content__title">Mr. Fantastic</p>
+            <p class="figure-trainer-content__subtitle">spinning trainer</p>
+            <p class="figure-trainer-contentt__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+              temporibus
+              quas molestiae nam.</p>
+          </figcaption>
+        </figure>
+        <figure class="figure-trainer">
+          <img src="/crossfit.jpeg" class="figure-trainer__img" />
+          <figcaption class="figure-trainer-content">
+            <p class="figure-trainer-content__title">Mr. Fantastic</p>
+            <p class="figure-trainer-content__subtitle">spinning trainer</p>
+            <p class="figure-trainer-contentt__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+              temporibus
+              quas molestiae nam.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="section section--addons">
+      <article class="addons addons--free-pass">
+        <p class="addons__entry-text">try for free</p>
+        <p class="addons__main-text">free 5 days pass</p>
+        <button class="default-button">get in touch</button>
+      </article>
+      <article class="addons addons--phone">
+        <p class="addons__entry-text">call us and try</p>
+        <p class="addons__main-text">112 - 221 - 221</p>
+        <button class="default-button">get in touch</button>
+      </article>
+    </section>
+    <section class="section section--contact">
+        <h2 class="section__title">get in touch</h2>
+        <form class="contact-form">
+            <label for="name" class="contact-form__label">
+                name
+            </label>
+            <input type="text" id="name" class="contact-form__input">
+            <label for="email" class="contact-form__label">
+                email
+            </label>
+            <input type="email" id="email" class="contact-form__input">
+            <label for="phone" class="contact-form__label">
+                phone number
+            </label>
+            <input type="email" id="phone" class="contact-form__input">
+            <label for="message" class="contact-form__label">
+                message
+            </label>
+            <textarea type="text" id="message" class="contact-form__textarea">
+            </textarea>
+            <button class="default-button">Send</button>
+        </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class='social'>
+      <p>Follow us:</p>
+      <div class='social-icons'>
+
+      </div>
+    </div>
+  </footer>
+  <script defer src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+
+</html>

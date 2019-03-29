@@ -1,0 +1,13 @@
+.article {
+  width: 80%;
+  height: auto;
+
+  @include flex-basic;
+}
+
+.article__content {
+  font-size: $font-size-small;
+  font-weight: $font-weight-medium;
+
+  text-align: center;
+}

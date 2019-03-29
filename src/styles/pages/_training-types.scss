@@ -1,0 +1,33 @@
+.section--training-types {
+  padding: $s2;
+}
+
+.figure-type {
+  width: 100%;
+  margin-top: $s2;
+  @include flex-basic;
+}
+
+.figure-type__img {
+  width: 85%;
+  height: auto;
+}
+
+.figure-type-content {
+  margin: $s1 0;
+  width: 80%;
+  @include flex-basic;
+}
+
+.figure-type-content__title {
+  margin: $s1 0;
+  text-transform: uppercase;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-medium;
+  text-align: center;
+}
+
+.figure-type-content__text {
+  font-size: $font-size-small;
+  text-align: center;
+}

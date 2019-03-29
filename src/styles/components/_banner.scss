@@ -1,0 +1,26 @@
+.banner {
+  width: 100%;
+  height: 45vh;
+
+  @include flex-basic;
+  align-items: flex-end;
+  background: url('../assets/images/banner.jpg') center no-repeat;
+  background-size: cover;
+  padding: $s2;
+}
+
+.banner__content {
+  width: 100%;
+  color: $text-color-light;
+  font-size: $font-size-large;
+  text-transform: uppercase;
+  @include flex-basic;
+  justify-content: flex-start;
+}
+
+.banner__content--bold {
+  width: 100%;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-jumbo;
+  margin-top: $s1;
+}

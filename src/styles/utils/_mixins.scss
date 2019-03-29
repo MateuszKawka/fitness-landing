@@ -1,0 +1,18 @@
+@mixin flex-basic() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@mixin default-button() {
+  width: $s8;
+  height: $s3;
+  font-size: $font-size-small;
+  font-weight: $font-weight-bold;
+  background: $details-color;
+  border: none;
+  color: $text-color-light;
+  text-transform: uppercase;
+  transition: $default-transition;
+}

@@ -1,0 +1,53 @@
+.nav-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: $s4;
+
+  @include flex-basic;
+  justify-content: space-between;
+  padding: 0 $s1;
+  
+}
+
+.nav-container__logo {
+  text-transform: uppercase;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-large;
+  color: $text-color-light;
+}
+
+.nav {}
+
+.nav-mobile-button {
+  width: $s2;
+  height: $s2;
+  border: none;
+  background: none;
+  background-image: url('../assets/images/menu-icon.svg');
+  background-size: cover;
+  display: flex;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+
+}
+
+.menu {
+  transition: $default-transition;
+  top: $s3;
+  right: $s2;
+  position: absolute;
+}
+
+.menu--hidden {
+  
+}
+
+.menu-list {}
+
+.menu-list__item {
+  color: $text-color-light;
+  text-decoration: none;
+  font-size: $font-size-medium;
+}
