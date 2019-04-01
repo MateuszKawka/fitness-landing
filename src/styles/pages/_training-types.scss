@@ -1,7 +1,3 @@
-.section--training-types {
-  padding: $s2;
-}
-
 .figure-type {
   width: 100%;
   margin-top: $s2;
@@ -9,8 +5,9 @@
 }
 
 .figure-type__img {
-  width: 85%;
+  width: auto;
   height: auto;
+  max-height: 50vh;
 }
 
 .figure-type-content {
@@ -22,7 +19,7 @@
 .figure-type-content__title {
   margin: $s1 0;
   text-transform: uppercase;
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-medium;
   font-size: $font-size-medium;
   text-align: center;
 }

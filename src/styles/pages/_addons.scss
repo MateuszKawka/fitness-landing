@@ -28,3 +28,9 @@
   font-weight: $font-weight-bold;
   margin: $s1 0;
 }
+
+@media screen and (min-width: $bp-medium) {
+  .addons {
+    width: 50%;
+  }
+}

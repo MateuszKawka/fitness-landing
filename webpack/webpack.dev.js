@@ -15,6 +15,7 @@ module.exports = {
     main: './' + src_Path + '/index.js'
   },
   output: {
+    publicPath: '/',
     path: path.resolve(__dirname, prod_Path),
     filename: '[name].[chunkhash].js'
   },

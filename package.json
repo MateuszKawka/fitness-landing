@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:dev": "webpack-dev-server --env dev --mode none",
-    "build:prod": "webpack --env prod --mode production",
+    "serve": "webpack-dev-server --env dev --mode none",
+    "build": "webpack --env prod --mode production",
     "build:watch": "webpack-dev-server --env dev --mode none"
   },
   "author": "mwieth",
@@ -31,6 +31,8 @@
   },
   "dependencies": {
     "normalize.css": "^8.0.1",
+    "rellax": "^1.9.1",
+    "smooth-scroll": "^16.0.3",
     "tiny-slider": "^2.9.1"
   }
 }

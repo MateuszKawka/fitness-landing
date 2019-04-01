@@ -1,13 +1,26 @@
 .article {
-  width: 80%;
+  width: 90%;
   height: auto;
 
   @include flex-basic;
+  flex-flow: column wrap;
 }
 
 .article__content {
-  font-size: $font-size-small;
-  font-weight: $font-weight-medium;
-
+  font-size: $font-size-medium;
+  font-weight: $font-weight-regular;
+  width: 95%;
   text-align: center;
+  color: $text-color-light;
+  margin: $s2 0;
+}
+
+@media screen and (min-width: $bp-medium) {
+  .article {
+    width: 100%;
+  }
+
+  .article__content {
+    width: 75%;
+  }
 }

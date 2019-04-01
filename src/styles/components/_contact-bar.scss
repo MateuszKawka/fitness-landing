@@ -1,0 +1,23 @@
+.contact-bar {
+  width: 90%;
+  height: $s6;
+  max-width: $bp-medium;
+  background: white;
+  @include flex-basic;
+  justify-content: space-around;
+  position: absolute;
+  top: -$s3;
+  display: none;
+}
+
+.contact-bar__content {
+  font-size: $font-size-large;
+  font-weight: $font-weight-medium;
+  color: $details-color;
+}
+
+@media screen and (min-width: $bp-medium) {
+  .contact-bar {
+    display: flex;
+  }
+}
