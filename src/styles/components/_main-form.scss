@@ -1,0 +1,39 @@
+.form {
+  width: 100%;
+  @include flex-basic;
+  flex-flow: column wrap;
+}
+
+.form__label {
+  font-weight: $font-weight-medium;
+  font-size: $font-size-medium;
+  margin: $s1 0;
+}
+
+.form__input {
+  width: 50%;
+  height: $s3;
+  padding: $s1;
+  background: $details-color;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-medium;
+  color: $text-color-light;
+  border: none;
+}
+
+.form__textarea {
+  width: 50%;
+  height: $s5;
+  resize: vertical;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-medium;
+  background: $details-color;
+  color: $text-color-light;
+  padding: $s1;
+}
+
+@media screen and (min-width: $bp-medium) {
+  .form {
+    width: 75%;
+  }
+}

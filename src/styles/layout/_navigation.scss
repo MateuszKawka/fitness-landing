@@ -2,9 +2,10 @@
   position: fixed;
   top: 0;
   width: 100%;
-  height: 4rem;
+  height: 5rem;
   @include flex-basic;
   justify-content: space-between;
+  flex-wrap: nowrap;
   padding: $s1;
   background: rgba(5, 5, 5, 0.9);
   z-index: 99;
@@ -24,18 +25,23 @@
 }
 
 .nav-mobile-button {
-  width: $s2;
-  height: $s2;
+  width: auto;
+  height: auto;
   border: none;
   background: none;
-  background-image: url('../assets/images/menu-icon.svg');
-  background-size: cover;
+
   display: flex;
   position: absolute;
   top: $s1;
   right: $s1;
   transition: $default-transition;
   z-index: 5;
+}
+
+.menu-icon {
+  width: $s2;
+  height: $s2;
+
 }
 
 .nav-mobile-button--visible-menu {
@@ -70,6 +76,10 @@
   &:hover {
     color: $details-color;
   }
+}
+
+.menu-list__item--current {
+  color: $details-color;
 }
 
 .menu--show {

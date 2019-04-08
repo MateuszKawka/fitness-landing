@@ -17,3 +17,7 @@ html {
   @include flex-basic;
   position: relative;
 }
+
+.hidden {
+  display: none;
+}

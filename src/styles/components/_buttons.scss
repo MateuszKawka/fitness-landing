@@ -3,6 +3,6 @@
   @include default-button();
   cursor: pointer;
   &:hover {
-    background: #de500c;
+    background: $button-hover;
   }
 }

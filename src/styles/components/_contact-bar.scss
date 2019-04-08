@@ -1,12 +1,10 @@
 .contact-bar {
   width: 90%;
-  height: $s6;
+  height: 20vh;
   max-width: $bp-medium;
   background: white;
   @include flex-basic;
   justify-content: space-around;
-  position: absolute;
-  top: -$s3;
   display: none;
 }
 

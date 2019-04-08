@@ -39,6 +39,9 @@
   max-width: $bp-desktop;
 }
 
+.section--addons {
+  padding: 0;
+}
 
 @media screen and (min-width: $bp-medium) {
   .section--welcome {

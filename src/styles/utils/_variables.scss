@@ -1,16 +1,18 @@
-$flamingo: #f46d2d;
-$baltic-sea: #27252d;
+$crimson: #da1212;
+$woodsmoke: #141415;
 $silver-chalice: #b1b1b1;
 $orchid-white: #fffdf3;
 $catskill-white: #f1f5f8;
+$totem-pole: #a50808;
 
 $background: $orchid-white;
 $background-light: $catskill-white;
-$background-dark: $baltic-sea;
-$details-color: $flamingo;
-$text-color-dark: $baltic-sea;
+$background-dark: $woodsmoke;
+$details-color: $crimson;
+$text-color-dark: $woodsmoke;
 $text-color-light: $orchid-white;
 
+$button-hover: $totem-pole;
 
 $default-transition: .25s all ease-in-out;
 

@@ -1,0 +1,21 @@
+.social-icons {
+  width: 100%;
+  height: auto;
+  padding: $s1 $s2;
+
+  @include flex-basic;
+  justify-content: space-around;
+}
+
+.social-icons__icon {
+  width: $s2;
+  height: $s2;
+  margin: 0 $s2;
+  fill: white;
+  transition: $default-transition;
+  cursor: pointer;
+  &:hover {
+    fill: $details-color;
+    
+  }
+}

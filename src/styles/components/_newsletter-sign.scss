@@ -1,6 +1,6 @@
 .newsletter-sign {
   width: auto;
-  height: 100%;
+  height: auto;
 
   @include flex-basic;
 }
@@ -8,10 +8,17 @@
 .newsletter-sign__input {
   height: $s3;
   border: none;
+  padding: $s1;
+  color: $details-color;
+  font-weight: $font-weight-medium;
 }
 
 .newsletter-sign__button {
   @include default-button;
   width: auto;
   padding: 0 $s2;
+}
+
+.newsletter-sign__label {
+  display: none;
 }
